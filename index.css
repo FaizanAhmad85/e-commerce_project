@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav bar body */
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(23, 33, 13);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+/* navbar logo */
+
+.logo{
+     height: 58px;
+    width: auto;
+   display: block;
+   border:1.5px solid transparent;
+}
+
+.h:hover{
+      border:1.5px solid white;
+}
+
+/* secarch bar */
+
+.search-box{
+    height: 40px;
+    display: flex;
+    align-items: center;
+
+
+}
+.search{
+    height: 40px;
+    width: 550px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    font-size: 20px;
+    font-family:'Arial Narrow', Arial, sans-serif,'Franklin Gothic Medium';
+    align-items: center;
+    padding-left: 10px;
+}
+.bu{
+    height: 42px;
+    width: 40px;
+    border-top-right-radius:6px ;
+    border-bottom-right-radius:6px ;
+    font-size: 25px;
+    color: rgb(10, 78, 12);
+}
+
+/* login */
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60px;
+    color: white;
+    width: 150px;
+    padding-left: 10px;
+    border: 1.5px solid transparent;
+}
+
+.login p:first-child{
+    font-size: 15px;     
+    font-weight: 400;
+}
+
+.login p:last-child{
+    font-size: 18px;     
+    font-weight: 600;
+}
+
+/* cart */
+
+.cart{
+    margin-right: 50px;
+    height: 58px;
+    width: 120px;
+    display: flex;
+    align-items: center;          /* vertical center */
+    justify-content: center;      /* horizontal center */
+    gap: 5px;                     /* image & text gap */
+    border: 1.5px solid transparent;
+}
+
+.cart img{
+    height: 40px;   /* image size control */
+}
+
+.cart p{
+    color: white;
+    font-size: 25px;
+}
+
+/* Nav bar is complete */
