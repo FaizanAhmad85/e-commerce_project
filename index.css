@@ -102,3 +102,23 @@
 }
 
 /* Nav bar is complete */
+.categiry{
+    height: 35px;
+    background-color: rgb(15, 82, 31);
+    display: flex;
+    
+}
+
+.links{
+    height: 34px;
+    color: white;
+    font-size: 18px;
+    border: 1.5px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 30px;
+    margin-left: 10px;
+}
