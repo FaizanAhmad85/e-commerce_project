@@ -122,3 +122,13 @@
     margin-right: 30px;
     margin-left: 10px;
 }
+
+/* links after navbar is complete */
+.hero_section{
+    width: 100%;
+    height: 400px;
+}
+.hero_section img{
+    height: 450px;
+    width: 100%;
+}
